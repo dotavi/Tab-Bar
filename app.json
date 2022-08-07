@@ -1,11 +1,4 @@
 {
-  "expo": {
-    "name": "tabbar",
-    "slug": "tabbar",
-    "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
-  },
-  "name": "tabbar"
+  "name": "tabbar",
+  "displayName": "tabbar"
 }
