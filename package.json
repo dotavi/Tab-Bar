@@ -41,18 +41,7 @@
       "jsx",
       "json",
       "node"
-    ],
-    "transformIgnorePatterns": [
-      "[/\\\\]node_modules[/\\\\].+\\.(js|jsx)$"
-      ],
-      "globals": {
-        "__DEV__": true
-        }
-        },
-        "collectCoverageFrom": [
-          "src/**/*.{js,jsx,ts,tsx}",
-          "!**/node_modules/**"
-          ]
-          
-  }
+    ]
+    }
+    }
 
