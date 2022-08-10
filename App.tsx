@@ -1,35 +1,16 @@
 import React from 'react';
 import {Button, Text, View, StyleSheet} from 'react-native';
+import MainNavigator from './src/navigation/MainNavigator';
 
 const App = () => {
-  const [message, setMessage] = React.useState('');
-
+ 
   return (
-    <View>
-      <Button
-        title="Say Hello"
-        onPress={() => {
-          setTimeout(() => {
-            setMessage('Hello Avinash');
-          }, Math.floor(Math.random() * 200));
-        }}
-      />
-      {message && (
-        <Text style={styles.messageText} testID="printed-message">
-          {message}
-        </Text>
-      )}
-    </View>
+<MainNavigator />
   );
 };
 
 const styles = StyleSheet.create({
-  messageText: {
-    fontFamily: 'Arial',
-    fontSize: 38,
-    textAlign: 'center',
-    marginTop: 10,
-  },
+ 
 });
 
 export default App;
