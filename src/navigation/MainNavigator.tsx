@@ -10,10 +10,8 @@ const MainNavigator = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator
-      initialRouteName='Root'
-      screenOptions={{headerShown: false}}>
-      
-        <Stack.Screen name="Root" component={TabNavigator} />
+                      initialRouteName='Root' screenOptions={{headerShown: false}}>   
+      <Stack.Screen name="Root" component={TabNavigator} />
       </Stack.Navigator>
     </NavigationContainer>
   );

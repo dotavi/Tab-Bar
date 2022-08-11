@@ -36,9 +36,18 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
         backgroundColor: COLORS.primary,
-        width: 60,
-        height: 60,
+        width: 58,
+        height: 58,
         borderRadius:30,
+        //drop shadow
+        shadowColor: COLORS.lightgrey,
+        shadowOpacity: 1,
+        shadowOffset:{
+            width:0,
+            height:2,
+        },
+        marginBottom:50,
+
     },
     cartbuttonImage:{
         width:40,
@@ -49,7 +58,7 @@ const styles = StyleSheet.create({
     box: {
         width:60,
         height:60,
-        marginTop:-30,
+        marginTop:-28,
 }
 }
 );

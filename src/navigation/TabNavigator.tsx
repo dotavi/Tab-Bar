@@ -63,18 +63,6 @@ const TabNavigator = () => {
                     tabBarButton: () => (
                         <CartButton />
                     )
-
-
-
-                    // tabBarIcon: ({focused}) => (
-                    //     <View style={styles.tabIconContainer} >
-                    //       <Image
-                    //         source={require("../../assets/cart.png")}
-                    //         resizeMode="contain"
-                    //         style={[styles.tabIcon,getIconColor(focused)]}
-                    //       />
-                    //     </View>
-                    //   ),
                     }}
                     />
                 {/* ---------------------------------------------------------------- */}
@@ -100,6 +88,7 @@ const TabNavigator = () => {
                     },
                     tabBarIcon: ({focused}) => (
                         <View style={styles.tabIconContainer} >
+                        
                           <Image
                             source={require("../../assets/account.png")}
                             resizeMode="contain"
@@ -132,12 +121,12 @@ const TabNavigator = () => {
         },
         tabIconContainer:{
             position:"absolute",
-            top:10,
+            top:6,                         //
             alignItems: "center",
             justifyContent: "center",
-            borderWidth:0,          //Set to 1 to check the line boundaries
-            width:37,
-            height:37,
+            borderWidth:0,                  //Set to 1 to check the line boundaries
+            width:60,                       
+            height:47,
             borderColor:COLORS.dark,
             
 
